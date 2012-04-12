@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <script src="swipelist.js"></script>
+
+    <style type="text/css">
+        body {}
+        #wrapper{ max-width:1140px; margin:auto;} 
+        .sliderOuter {width:auto;  height:100px; border:1px dotted #666; padding:5px 0; margin-top:20px; position:relative; border-radius:2px; overflow:hidden;}
+      .sliderInner {height:50px; width:3000px; position:absolute; left:0; top:5px;}
+.sliderElement{margin:0px 1px; cursor:pointer; background:#888; width:98px; height:100px; float:left; text-align:center; font-family:arial; font-weight:bold; line-height:50px; color:#fff;}
+  
+.sliderElement, .sliderInner, .sliderOuter{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+
+}
+
+   #list4 {height:50px;}
+  #list4 .sliderElement { width: 48px; height:50px;}
+
+   #list5 {height:300px; width:600px; }
+  #list5 .sliderElement { height:300px; margin:0;}
+
+
+.selected{background:#222}
+
+
+.focus{ position:absolute; width:98px; height:94px; border-radius:5px; margin-left:-52px;  left:50%; top:5px; border:3px solid orange; z-index:99; }
+    </style>
+
+
+    <script type="text/javascript">
+
+        var s,s1,s2,s3,s4;
+
+        $(function() {
+
+
+
+          var days = ["mo","tue","thu","wed","fr","sa","sun"];
+          var entries = [];
+
+          var entries2 = [];
+          var entries3 = [];
+          var entries4 = [];
+          var entries5 = [];
+
+          for (var i = 0; i < 35; i++) {
+            entries.push({
+              index: i,
+              value: Math.random()
+            });
+
+          }
+
+          for (var i = 0; i < 3; i++) {
+            entries2.push({
+              index: i,
+              value: Math.random()
+            });
+
+          }
+
+
+
+          for (var i = 0; i < 9; i++) {
+            entries3.push({
+              index: i,
+              value: Math.random()
+            });
+
+          }
+
+   for (var i = 0; i < 400; i++) {
+            entries4.push({
+              index: i,
+              value: Math.random()
+            });
+
+          }
+
+
+
+      var options = {
+          styleCallback:function(entry,element){
+                element.text(entry.index);
+            },
+         selectCallback:function(entry){
+              //console.log("select: " + entry.index);
+            },
+          index:3
+                     
+       };
+
+
+            options.index=17;
+
+                     s = new SwipeList();
+          s.init(entries,$("#list"),options);
+
+
+            options.index=14;
+              s2= new SwipeList();
+          s2.init(entries2,$("#list2"),options);
+
+       
+
+  options.index=6;
+       s3= new SwipeList();
+          s3.init(entries3,$("#list3"),options);
+
+
+    s4= new SwipeList();
+          s4.init(entries4,$("#list4"),options);
+
+        
+
+
+
+
+  for (var i = 0; i < 9; i++) {
+            entries5.push({
+              index: i,
+              id: "mewo",
+              category: Math.random(),
+              date: Math.random(),
+              value: Math.random()
+            });
+
+          }
+
+
+
+        options.index = 0;
+        options.fullscreen = true;
+        options.endless = true;
+       options.selectOnDrag=false;
+      options.tolerance=40;
+      options.switchOnDrag=false;
+        options.elementHTML = "<div class='inner'><div class='a'>meow</div><div class='b'>meow</div></div>";
+
+        options.styleCallback = function(entry,element){
+               $(".b",element).text(entry.index);
+            };
+    s5= new SwipeList();
+          s5.init(entries5,$("#list5"),options);
+
+
+
+
+
+
+      $("#resetData").click(function(){
+          var newEntries = [];
+
+
+           for (var i = 0; i < 8; i++) {
+            newEntries.push({
+              index: i,
+              value: Math.random()
+            });
+
+          }
+
+          s4.setData(newEntries);
+
+      });
+
+
+         
+      $("#setIndex").click(function(){
+      
+          s4.setIndex(2);
+      });
+  $("#setIndex2").click(function(){
+      
+          s4.setIndex(6);
+      });
+       });
+
+    </script>
+
+
+
+  </head>
+  <body >
+
+
+<div id="wrapper">
+<div id="list" class="sliderOuter">
+<div class="focus"></div>
+    <div class="sliderInner">
+    
+    
+    </div>
+
+</div>
+<div id="list2" class="sliderOuter">
+<div class="focus" ></div>
+
+    <div class="sliderInner">
+    
+    
+    </div>
+
+</div>
+
+
+<div id="list3" class="sliderOuter">
+<div class="focus" ></div>
+
+    <div class="sliderInner">
+    
+    
+    </div>
+
+</div>
+
+
+
+<div id="list4" class="sliderOuter">
+<div style="width:46px; margin-left:-26px; height:44px" class="focus" ></div>
+
+    <div class="sliderInner">  </div>
+    
+    
+
+</div>
+
+<div style=" margin:10px auto;">
+<button id="resetData">reset Data</button>
+<button id="setIndex">set Index</button>
+<button id="setIndex2">set Index</button>
+</div>
+
+
+<div id="list5" class="sliderOuter">
+
+
+    <div class="sliderInner">
+    
+    
+    </div>
+
+</div>
+<div id="log"></div>
+    
+</div>
+  </body>
+</html>

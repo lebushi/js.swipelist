@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"outpu",
+				"outputFlag"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"tag",
+				"tagcloud"
+			],
+			[
+				"curr",
+				"currentHighestValue"
+			],
+			[
+				"curre",
+				"currentHeightFactor"
+			],
+			[
+				"current",
+				"currentHighstValue"
+			],
+			[
+				"hig",
+				"currentHighstValue"
+			],
+			[
+				"help",
+				"helpScreen"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"info",
+				"infoView"
+			],
+			[
+				"pop",
+				"popupContent"
+			],
+			[
+				"time",
+				"timelineContainer"
+			],
+			[
+				"getCur",
+				"getCurrentDate"
+			],
+			[
+				"sorte",
+				"sortedDataYMD"
+			],
+			[
+				"set",
+				"setCircleRadius"
+			],
+			[
+				"on",
+				"onCloseInfo"
+			],
+			[
+				"start",
+				"toleranceStartX"
+			],
+			[
+				"tole",
+				"toleranceStartX"
+			],
+			[
+				"last",
+				"lastIndex"
+			],
+			[
+				"selecte",
+				"selectedIndex"
+			],
+			[
+				"curren",
+				"currentEntries"
+			],
+			[
+				"tags",
+				"tagsAsNumber"
+			],
+			[
+				"index",
+				"indexSwitched"
+			],
+			[
+				"selec",
+				"selectedIndex"
+			],
+			[
+				"select",
+				"selectIndex"
+			],
+			[
+				"dr",
+				"selectOnDrag"
+			],
+			[
+				"listData",
+				"listDataYMD"
+			],
+			[
+				"list",
+				"listDataYMD"
+			],
+			[
+				"getEntris",
+				"getEntriesForList"
+			],
+			[
+				"so",
+				"sortEntriesByYMD"
+			],
+			[
+				"data",
+				"dataSortedByYMD"
+			],
+			[
+				"sort",
+				"sortEntriesByDate"
+			],
+			[
+				"lef",
+				"leftOffset"
+			],
+			[
+				"cal",
+				"calcSelectedIndex"
+			],
+			[
+				"calc",
+				"calcSelectedIndex"
+			],
+			[
+				"element",
+				"elementWidth"
+			],
+			[
+				"get",
+				"getCSSOffset"
+			],
+			[
+				"first",
+				"firstIndex"
+			],
+			[
+				"world",
+				"worldmapController"
+			],
+			[
+				"entr",
+				"sortedEntriesYMD"
+			],
+			[
+				"sortedEntr",
+				"sortedEntriesYMD"
+			],
+			[
+				"sorted",
+				"sortedEntries"
+			],
+			[
+				"draw",
+				"drawResults"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "swipelist.js",
+			"settings":
+			{
+				"buffer_size": 12587,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jQuery ready function"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/stephanreich.com/htdocs/stephan/wp-content/themes/portfolio/sidebar.php",
+		"/Applications/MAMP/htdocs/gallery/gallery.sublime-project",
+		"/Applications/MAMP/htdocs/gallery/jquery.clickgallery.js",
+		"/Applications/MAMP/htdocs/gallery/gallery.sublime-workspace",
+		"/Applications/MAMP/htdocs/gallery/demo.html",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/single.php",
+		"/Users/captainplanet/Documents/projects/supercrop/jquery.supercrop.js",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/header.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/bones.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/js/scripts.js",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/search.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/plugins/content-filter/content-filter.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/plugins/content-filter/script.js",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/functions.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/archive.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/page.php",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/less/base.less",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/less/481up.less",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/less/768up.less",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/inlinestyle.html",
+		"/Users/captainplanet/Documents/_portfolio/gallery/jquery.clickgallery.js",
+		"/Users/captainplanet/Documents/_portfolio/gallery/demo.html",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/css/base.css",
+		"/Volumes/interaction-design-group.de (root)/bitsbytes/wp-content/themes/bones/library/css/768up.css",
+		"/Users/captainplanet/Dropbox/_portfolio_html2/styles.css",
+		"/Users/captainplanet/Documents/hiwi/bones/library/less/768up.less",
+		"/Users/captainplanet/Dropbox/_portfolio_html2/home.html",
+		"/Users/captainplanet/Dropbox/_portfolio_html2/projects.html",
+		"/Users/captainplanet/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/interaction-design-group.de/bitsbytes/wp-content/themes/twentyeleven/showcase.php",
+		"/Applications/MAMP/htdocs/production/style.css",
+		"/Applications/MAMP/htdocs/storiesxs/entries_other.json",
+		"/Applications/MAMP/htdocs/database/addedis.html",
+		"/Applications/MAMP/htdocs/database/addEdisEntry.php",
+		"/Applications/MAMP/htdocs/edis/getedisdescription.html",
+		"/Applications/MAMP/htdocs/edis/getedis.html",
+		"/Applications/MAMP/htdocs/edis/data.html",
+		"/Applications/MAMP/htdocs/edis/entriesjan21feb16_geolevel.txt",
+		"/Applications/MAMP/htdocs/edis/entriesjan21feb16_description.txt",
+		"/Applications/MAMP/htdocs/edis/entriesjan21feb16.txt",
+		"/Applications/MAMP/htdocs/edis/index.php.html",
+		"/Applications/MAMP/htdocs/edis/mergeentries.html",
+		"/Applications/MAMP/htdocs/edis/results_2010.txt",
+		"/Applications/MAMP/htdocs/edis/getentriesfromdatabase.html",
+		"/Applications/MAMP/htdocs/production/timeline.js",
+		"/Applications/MAMP/htdocs/production/swipelist/demo.html",
+		"/Applications/MAMP/htdocs/production/getDescription.php",
+		"/Applications/MAMP/htdocs/production/getCountryData.php",
+		"/Applications/MAMP/htdocs/production/getEdisEntry.php",
+		"/Applications/MAMP/htdocs/production/getEdisEntryByDate.php",
+		"/Applications/MAMP/htdocs/production/ui.html",
+		"/Applications/MAMP/htdocs/production/data.js",
+		"/Applications/MAMP/htdocs/productionfeb10 847/timeline.js",
+		"/Applications/MAMP/htdocs/productionfeb10 847/data.js",
+		"/Applications/MAMP/htdocs/production feb9 1143/data.js",
+		"/Applications/MAMP/htdocs/production feb9 1143/maps_leaflet.js",
+		"/Applications/MAMP/htdocs/production/info copy.js",
+		"/Applications/MAMP/htdocs/production/swipelist/swipelist-min.js",
+		"/Applications/MAMP/htdocs/production/filter.js",
+		"/Applications/MAMP/htdocs/edis/getedisdescription",
+		"/Applications/MAMP/htdocs/edis/getgeo.html",
+		"/Applications/MAMP/htdocs/production/maps_leaflet.js",
+		"/Applications/MAMP/htdocs/production/index.html",
+		"/Applications/MAMP/htdocs/storiesxs/canvas_test.html",
+		"/Applications/MAMP/htdocs/production/main.js",
+		"/Applications/MAMP/htdocs/production/polymaps-fly/fly.js",
+		"/Applications/MAMP/htdocs/production/maps.js",
+		"/Applications/MAMP/htdocs/production/leaflet_test.html",
+		"/Applications/MAMP/htdocs/storiesxs/list/swipelist.html",
+		"/Applications/MAMP/htdocs/storiesxs/list/swipelist.js",
+		"/Applications/MAMP/htdocs/storiesxs/list/swipelist2.html",
+		"/Applications/MAMP/htdocs/production/mysql",
+		"/Applications/MAMP/htdocs/polymaps/examples/tipsy/tipsy.html",
+		"/Users/captainplanet/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/captainplanet/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/captainplanet/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/edis/proxy2.php",
+		"/Applications/MAMP/htdocs/database/index.html",
+		"/Applications/MAMP/htdocs/storiesxs/entries.json",
+		"/Applications/MAMP/htdocs/edis/addedistomysql.html",
+		"/Applications/MAMP/htdocs/database/getuser.php",
+		"/Applications/MAMP/htdocs/storiesxs/entries_description.json",
+		"/Users/captainplanet/Documents/p3/4_ideen/html(tutorial)/demo.html",
+		"/Users/captainplanet/Documents/p3/4_ideen/html(tutorial)/demo0.html",
+		"/Users/captainplanet/Downloads/wordpress 2/wp-content/themes/twentyeleven/page-customfields.php",
+		"/Users/captainplanet/Downloads/wordpress 2/wp-content/themes/twentyeleven/page2.php",
+		"/Users/captainplanet/Downloads/wordpress 2/wp-config.php",
+		"/Users/captainplanet/Documents/p3/7_idee/html_test/canvas_test.html",
+		"/Users/captainplanet/Documents/p3/4_ideen/html(tutorial)/demo1.html",
+		"/Users/captainplanet/Documents/p3/4_ideen/html(tutorial)/demo1absolute.html",
+		"/Users/captainplanet/Documents/p3/4_ideen/html(tutorial)/beispiel.html",
+		"/Users/captainplanet/Documents/projects/jquery.supercrop/demo/demo.html",
+		"/Users/captainplanet/Documents/projects/jquery.supercrop/jquery.supercrop.js",
+		"/Users/captainplanet/Documents/projects/supercrop.sublime-project",
+		"/Users/captainplanet/Documents/projects/jquery.supercrop/demo/jquery/jquery-1.5.min.js",
+		"/Users/captainplanet/Documents/p3/2_data/html/demo.html",
+		"/Users/captainplanet/Documents/projects/jquery.supercrop/demo/styles.css",
+		"/Users/captainplanet/Documents/projects/jquery.supercrop/demo/img/handle_resize.png"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".page",
+			"post",
+			"archive",
+			".page",
+			"20px",
+			"article",
+			"ul",
+			"fixed",
+			"logo",
+			"current",
+			"subnav",
+			"            // ",
+			"22.25",
+			"onecol",
+			"page",
+			"sidebar",
+			"/wp-content/uploads/streamtask_1.jpg\n/wp-content/uploads/streamtask_2.png\n/wp-content/uploads/streamtask_3.png\n/wp-content/uploads/streamtask_4.png\n/wp-content/uploads/streamtask_5.png",
+			"\" alt=\"\" /></li>",
+			"sidebar",
+			"subnav",
+			"\" alt=\"\" /></li>",
+			"subnav",
+			"<li><img src=\"",
+			"\" alt=\"\" />",
+			"<img src=\"\" data-src=\"",
+			"  ",
+			"\\n",
+			" />",
+			"	",
+			"<li>",
+			"</li>",
+			"footer",
+			"logo",
+			"nav",
+			"setImage",
+			"load",
+			"wrapper",
+			"2AB6DB",
+			"search",
+			"height(",
+			"200px",
+			"hide",
+			"searc",
+			"searchSubmit",
+			"searc",
+			"search",
+			"buttons",
+			"cookieValues",
+			"ul",
+			"url",
+			"article",
+			"[ID]",
+			"endif",
+			"pre",
+			"tagc",
+			"handleSelection",
+			"append",
+			"startDate",
+			"tags[",
+			"events[",
+			"months[",
+			"fullscreen",
+			"indexSwitched",
+			"selectOnDrag",
+			"[0",
+			"\"            :[\"",
+			"[0]",
+			"start",
+			"startDate",
+			"cachedEntries",
+			"list",
+			"setIndex",
+			"indexOffset",
+			"overflow:",
+			"if(d",
+			"if",
+			"select",
+			"selectIndex",
+			"setEntries",
+			"addTagIds",
+			"selectedCircle",
+			"selectedCIrce",
+			"handle",
+			"color",
+			"selectOnDrag",
+			"data",
+			"selectOnDrag",
+			"selectCall",
+			"selectedIndex",
+			"addMarke",
+			"\"[]",
+			",",
+			"originalEvent",
+			"+1",
+			"selectIndexOffset",
+			"client",
+			"bind",
+			" style=\"\"",
+			"  ",
+			"init",
+			"reset",
+			"},,",
+			"[{",
+			"{",
+			"[{",
+			"[",
+			"\\'",
+			"`",
+			"[{",
+			"replace",
+			"cid\":0",
+			"784.",
+			"784",
+			"7784.25",
+			"^",
+			"plot_point",
+			"../src/",
+			"</option>",
+			" 	 Informationen zum Blatt",
+			" 	 Erläuternde Texte (Metadaten) Informationen zum Blatt",
+			"								Tables, Graphs and Maps Nutzerschnittstelle 	 ",
+			" 	 Informationen zum Blatt",
+			"								Tables, Graphs and Maps Nutzerschnittstelle 	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CONSTANTS.startDate",
+			"CONSTANTS.tags[",
+			"CONSTANTS.events[",
+			"CONSTANTS.months[",
+			"\":[]",
+			"[],\n      ",
+			":[],\n      ",
+			"",
+			"'",
+			"\\'",
+			"'",
+			"worldmapController.addDot",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "swipelist.js",
+					"settings":
+					{
+						"buffer_size": 12587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true
+}
