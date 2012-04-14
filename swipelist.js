@@ -5,30 +5,24 @@
 
 function SwipeList() {
 
+	var elementWidth, containerWidth, elementNum, elementContainer, currentOffset, outerElement,firstElement, lastElement,selectCallback, styleCallback, data
 	var startIndex = 0,
-	 	visibleElements = 5;
-
-	var outerElement;
-
-	var selectElement = true;
-
-	var selectIndexOffset = 2;
-	var selectedIndex = 1 + selectIndexOffset;
-
-	var elementWidth, containerWidth, elementNum, elementContainer, currentOffset, outerElement;
-	var firstElement, lastElement; 
-
-
-	var startX = 0; //used for calculation of drag distance
-	var firstIndex = 0,
+	 	visibleElements = 5,
+	 	selectElement = true,
+	 	selectIndexOffset = 2,
+		selectedIndex = 1 + selectIndexOffset,
+		startX = 0, //used for calculation of drag distance
+		firstIndex = 0,
 		lastIndex = 0,
 		indexOffset = 0,
 		tempOffset = 0,
 		leftOffset = 0;
+		touchMode = false,
+		indexSwitched = true,
+		tempIndex = -1;
 
-	var selectCallback, styleCallback;
-	var data;
 
+	//can be overwritten/extended
 	var defaults = {
 		styleCallback: false,
 		selectCallback:false,
@@ -41,12 +35,6 @@ function SwipeList() {
 		switchOnDrag:true
 
 	}
-
-	var touchMode = false;
-
-
-	var indexSwitched = true;
-	var tempIndex = -1;
 
 	function calcSelectedIndex() {
 		var middle = containerWidth / 2; //optimizeable
