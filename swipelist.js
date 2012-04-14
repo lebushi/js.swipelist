@@ -43,8 +43,7 @@ function SwipeList() {
 
 		$.each($(".sliderElement",outerElement),function(i,element){
 			offset =  $(this).offset().left - outerElement.offset().left;
-			//if(i==1) console.log("offset: " + offset + " middle: " + middle + "  elementWidth: " + elementWidth );
-				if(middle - offset < elementWidth){ //if(offset-(offset%elementWidth) == middle-(middle%elementWidth)){
+				if(middle - offset < elementWidth){ 
 				 	value = i;
 					return false;
 				}
@@ -62,7 +61,6 @@ function SwipeList() {
 
 	function handleIndexSelection() {
 		selectedIndex = calcSelectedIndex();
-	//	if(selectedIndex > visibleElements+2)selectedIndex = visibleElements+1; //PFUSCH
 		if(defaults.switchOnDrag) selectIndex(selectedIndex, defaults.selectOnDrag);
 	}
 
@@ -77,7 +75,6 @@ function SwipeList() {
 						selectCallback.call(this, data[globalIndex],globalIndex);
 					indexSwitched = false;
 				} 
-				//if(!callCallback) indexSwitched = false;
 		 	}
 
 	}
@@ -118,20 +115,13 @@ function SwipeList() {
 			//console.log(e);
 			calcTempOffset();
 
-								firstIndex 	= firstElement.data("index") - 1;
-						lastIndex 	= lastElement.data("index") +1 ;
-
-
-			// handling the first/last element shifting;
-			//	console.log("(lastIndex: " + lastIndex + "  -  elementNum: " + elementNum + " - tempOffset: " +tempOffset + " (-elementWidth) " + (-elementWidth) + " endless: " + defaults.endless );
-			//	console.log("((lastIndex < elementNum || (lastIndex >= elementNum && defaults.endless))): " + ((lastIndex < elementNum || (lastIndex >= elementNum && defaults.endless))) );
-			//console.log("(tempOffset < -2*elementWidth):" + (tempOffset < -2*elementWidth));
-
+			firstIndex 	= firstElement.data("index") - 1;
+			lastIndex 	= lastElement.data("index") +1 ;
 
 
 
 				//if positive offset
-			//	console.log("tempOffset: " + tempOffset +  " firstIndex: "  + firstIndex  +  " lastIndex: "  + lastIndex + " getCSSOffset(): " + getCSSOffset());
+				//	console.log("tempOffset: " + tempOffset +  " firstIndex: "  + firstIndex  +  " lastIndex: "  + lastIndex + " getCSSOffset(): " + getCSSOffset());
 				if (tempOffset > 0 && (firstIndex >= 0 ||  (firstIndex==-1 && defaults.endless))) { 
 					if((firstIndex==-1 && defaults.endless)) firstIndex = lastIndex-1;
 
@@ -178,14 +168,10 @@ function SwipeList() {
 					}
 
 
-
 				} else {
 					setOffset(tempOffset);
 				}
-
 				
-		
-		
 
 		}
 
